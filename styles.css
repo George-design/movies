@@ -1,0 +1,35 @@
+.header{
+    margin-bottom: 40px;
+}
+.footer{
+    font-size: 12px;
+    font-weight: 400;
+    background: rgba(116, 74, 95, 0.8);
+    margin-top: 50px;
+    
+}
+.footer small{
+    font-family: 'cursive';
+    padding-left: 40%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.card-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content:center ;
+}
+.main .row{
+    width: 100%;
+}
+.card-container .card{
+    margin:5px 10px;
+}
